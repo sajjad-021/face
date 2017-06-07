@@ -12,7 +12,7 @@ sys.setdefaultencoding("utf-8")
 # Channel : @tgMember
 
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
-token = "XXX" #Token Bot
+token = "395908411:AAFwtOiQS9WoKA3_SNreHpwwleRJUnKmU0g" #Token Bot
 admin =  158955285
 channel =  @tgMember
 bot = TeleBot(token)
