@@ -13,8 +13,8 @@ sys.setdefaultencoding("utf-8")
 
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
 token = "395908411:AAFwtOiQS9WoKA3_SNreHpwwleRJUnKmU0g" #Token Bot
-admin =  158955285
-channel =  @tgMember
+admin = 158955285
+channel = -1001086196026
 bot = TeleBot(token)
 
 print "Bot Is Now Online"
